@@ -179,7 +179,7 @@ nav button {
     font-size: 1.5rem;
 }
 .body__left-image {
-    display: grid;
+    display: flex;
     margin-top: -2rem;
     grid-template-columns: repeat(3,1fr);
     gap: 0rem;
@@ -187,20 +187,22 @@ nav button {
     border-radius: 2rem;
     transition: var(--transition);
 }
-.apple:hover {
-    box-shadow: 0 3rem 3rem rgba(0,0,0,0.3);
-    z-index: 1;
+.redir {
+    background-color: #009688;
+    width: 200px;
+    height: 50px;
     border-radius: 10px;
+    font-size: 1.3rem;
+    color:#Fff;
+    font-family: 'Roboto', sans-serif;
 }
-.google:hover {
+
+.redir:hover {
     box-shadow: 0 3rem 3rem rgba(0,0,0,0.3);
     z-index: 1;
     border-radius: 10px;
-}
-.huawei:hover{
-    box-shadow: 0 3rem 3rem rgba(0,0,0,0.3);
-    z-index: 1;
-    border-radius: 10px;
+    /*Hand cursor*/
+    cursor: pointer;
 }
 .employer {
     border-radius: 3rem;
